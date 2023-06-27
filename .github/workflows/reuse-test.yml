@@ -1,6 +1,5 @@
 name: Reusable workflow examplez
-on:
-  workflow_call:
+on: [push]
   
 jobs:
   call-workflow-1-in-local-repo:
