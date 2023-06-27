@@ -1,6 +1,8 @@
 name: Reusable workflow examplez
-on: [push]
-  
+on: 
+  [push]:
+  workflow_call:
+
 jobs:
   call-workflow-1-in-local-repo:
     uses: kawikao/python-test-1/.github/workflows/python-app.yml@main
