@@ -1,6 +1,5 @@
 name: Reusable workflow examplez
 on: 
-  [push]:
   workflow_call:
 
 jobs:
